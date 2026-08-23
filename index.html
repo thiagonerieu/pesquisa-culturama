@@ -36,7 +36,7 @@
             <fieldset>
                 <legend>Perfil</legend>
                 
-                <p>Gênero:"</p>
+                <p>Gênero:</p>
                 <input id="fem" type="radio" name="userGender" value="Feminino">
                 <label for="fem">Feminino</label>
 
@@ -130,6 +130,27 @@
 
                 <label for="favoriteColor">Cor favorita:</label>
                 <input id="favoriteColor" type="color" name="userFavoriteColor">
+            </fieldset>
+
+            <fieldset>
+                <legend>Sua Opinião</legend>
+                <p>Escala de satisafação:</p>
+                <label for="opinion"></label>
+                <input id="otima" type="radio" name="userServiceOpinion" value="otima">
+                <label for="otima">Ótima</label>
+                <br>
+                <input id="boa" type="radio" name="userServiceOpinion" value="boa">
+                <label for="boa">Boa</label>
+                <br>
+                <input id="regular" type="radio" name="userServiceOpinion" value="regular">
+                <label for="regular">Regular</label>
+                <br>
+                <input id="ruim" type="radio" name="userServiceOpinion" value="ruim">    
+                <label for="ruim">Ruim</label>
+                <br>
+                <label for="comment">Escreva sua opinião:</label>
+                <textarea id="comment" name="userComment" placeholder="Digite sua opinião aqui..."></textarea>
+            
             </fieldset>
             <button type="submit">Enviar</button>
             
